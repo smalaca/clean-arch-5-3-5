@@ -23,7 +23,7 @@ public class AddressVerificationScenario {
     }
 
     public String getResponseAsJson() {
-        return asJson(request);
+        return asJson(response);
     }
 
     private String asJson(Object object) {
